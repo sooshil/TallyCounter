@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tally Counter</string>
+    <string name="zero">0</string>
+    <string name="reset">Reset</string>
+    <string name="target">Target</string>
+    <string name="steps">Steps</string>
+    <string name="reset_confirmation_message">This will reset the counter to zero. Are you really want to reset?</string>
+    <string name="reset_confirmation_title">Counter Reset</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="target_entry_dialog_title">Target Count</string>
+    <string name="target_entry_dialog_message">Enter the target you want to count up to or down to:</string>
+    <string name="this_action_exceeds_max_allowed">This action exceeds maximum allowed value %1$d</string>
+    <string name="this_action_exceeds_min_allowed">This action exceeds minimum allowed value %1$d</string>
+    <string name="reached_min_allowed">We can no longer decrease the count because minimum allowed count is %1$d</string>
+    <string name="reached_max_allowed">We can no longer increase the count because maximum allowed count is %1$d</string>
+    <string name="ok">OK</string>
+    <string name="enter_target_count">Please enter a target count</string>
+    <string name="enter_steps">Steps value can not be empty</string>
+    <string name="value_criteria">This value must be between %1$d and -%2$d</string>
+    <string name="new_value_same_as_old">The new target set is same as old</string>
+    <string name="target_string">/%1$d"</string>
+    <string name="reset_currently_set_target">Also reset currently set target: %1$d</string>
+    <string name="reset_currently_set_steps">Also reset currently set steps: %1$d</string>
+    <string name="steps_cannot_be_greater">Steps can not be greater than current target</string>
+    <string name="steps_entry_dialog_message">Enter the number by which the tally count should increase or decrease when + or - button clicked</string>
+    <string name="unable_to_set_target">We are unable to set target to %1$d. The target can only be set between %2$d and %3$d</string>
+</resources>

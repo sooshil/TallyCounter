@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.sukajee.tallycounter.ui.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+
+    <dialog
+        android:id="@+id/resetConfirmationDialog"
+        android:name="com.sukajee.tallycounter.ui.ResetConfirmationDialog"
+        android:label="ResetConfirmationDialog" />
+
+    <action
+        android:id="@+id/action_global_resetConfirmationDialog"
+        app:destination="@id/resetConfirmationDialog" />
+
+    <dialog
+        android:id="@+id/targetEntryDialog"
+        android:name="com.sukajee.tallycounter.ui.TargetEntryDialog"
+        android:label="TargetEntryDialog" />
+
+    <action
+        android:id="@+id/action_global_targetEntryDialog"
+        app:destination="@id/targetEntryDialog" />
+
+    <dialog
+        android:id="@+id/stepsEntryDialog"
+        android:name="com.sukajee.tallycounter.ui.StepsEntryDialog"
+        android:label="StepsEntryDialog" />
+
+    <action
+        android:id="@+id/action_global_stepsEntryDialog"
+        app:destination="@id/stepsEntryDialog" />
+
+</navigation>
