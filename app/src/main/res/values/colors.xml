@@ -10,4 +10,5 @@
     <color name="transparent">#00FFFFFF</color>
     <color name="fontColor">#FFFFFF</color>
     <color name="drawableColor">#FFFFFF</color>
+    <color name="actionBarColor">#6200EE</color>
 </resources>

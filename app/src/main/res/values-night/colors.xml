@@ -2,4 +2,5 @@
 <resources>
     <color name="fontColor">#C0C0C0</color>
     <color name="drawableColor">#C0C0C0</color>
+    <color name="actionBarColor">#161719</color>
 </resources>
