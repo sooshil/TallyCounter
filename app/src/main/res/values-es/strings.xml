@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="zero">cero</string>
+    <string name="reset">Reiniciar</string>
+    <string name="target">objetivo</string>
+    <string name="steps">paso</string>
+    <string name="reset_confirmation_message">Esto restablecerá el contador a cero. ¿De verdad quieres reiniciar?</string>
+    <string name="reset_confirmation_title">Reinicio del contador</string>
+    <string name="yes">sí</string>
+    <string name="cancel">cancelar</string>
+    <string name="target_entry_dialog_title">Recuento de destino</string>
+    <string name="target_entry_dialog_message">Ingrese el objetivo al que desea contar hacia arriba o hacia abajo:</string>
+    <string name="this_action_exceeds_max_allowed">Esta acción supera el valor máximo permitido %1$d</string>
+    <string name="this_action_exceeds_min_allowed">Esta acción supera el valor mínimo permitido %1$d</string>
+    <string name="reached_min_allowed">Ya no podemos disminuir el recuento porque el recuento mínimo permitido es %1$d</string>
+    <string name="reached_max_allowed">Ya no podemos aumentar el recuento porque el recuento máximo permitido es %1$d</string>
+    <string name="ok">OK</string>
+    <string name="enter_target_count">Ingrese un recuento objetivo</string>
+    <string name="enter_steps">El valor de los pasos no puede estar vacío</string>
+    <string name="value_criteria">Este valor debe estar entre %1$d y -%2$d</string>
+    <string name="new_value_same_as_old">El nuevo conjunto de objetivos es el mismo que el anterior</string>
+    <string name="reset_currently_set_target">También restablecer el objetivo establecido actualmente: %1$d</string>
+    <string name="reset_currently_set_steps">También restablece los pasos establecidos actualmente: %1$d</string>
+    <string name="steps_cannot_be_greater">Los pasos no pueden ser mayores que el objetivo actual</string>
+    <string name="steps_entry_dialog_message">Ingrese el número por el cual el recuento debe aumentar o disminuir cuando se hace clic en el botón + o -</string>
+    <string name="unable_to_set_target">No podemos establecer el objetivo en %1$d. El objetivo solo se puede establecer entre %2$d y %3$d</string>
+    <string name="target_reached_content_description">Ahora ha alcanzado su objetivo.</string>
+</resources>
