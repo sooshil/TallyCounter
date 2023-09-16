@@ -11,8 +11,8 @@ android {
         applicationId "com.sukajee.tallycounter"
         minSdk 21
         targetSdk 34
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1.45"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
