@@ -18,7 +18,7 @@ class TargetEntryDialog : DialogFragment() {
     private val viewModel: MainViewModel by activityViewModels()
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
-        val view = LayoutInflater.from(requireContext()).inflate(R.layout.entry_dialog_view, null)
+        val view = layoutInflater.inflate(R.layout.entry_dialog_view, null)
         val editText = view.findViewById<EditText>(R.id.editTextTarget)
         if (viewModel.setTarget != Int.MAX_VALUE) editText.setText(viewModel.setTarget.toString())
 
@@ -37,7 +37,7 @@ class TargetEntryDialog : DialogFragment() {
             //val til = view.findViewById<TextInputLayout>(R.id.til)
             if (editText.text?.trim()?.isBlank() == true) {
                 editText.error = getString(R.string.enter_target_count)
-            } else if (editText.text?.toString()?.toInt() ?: 100000 > 99999) {
+            } else if ((editText.text?.toString()?.toInt() ?: 100000) > 99999) {
                 editText.error = getString(R.string.value_criteria, MAX_COUNT + 1, MAX_COUNT + 1)
             } else if (editText.text?.toString()?.toInt() == viewModel.setTarget) {
                 editText.error = getString(R.string.new_value_same_as_old)

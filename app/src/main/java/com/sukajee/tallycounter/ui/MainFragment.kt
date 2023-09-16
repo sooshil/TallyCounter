@@ -44,7 +44,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
                     }
                 }
             }
-            viewModel.resetVisible.observe(viewLifecycleOwner::getLifecycle) { resetVisible ->
+            viewModel.resetVisible.observe(viewLifecycleOwner) { resetVisible ->
                 binding.buttonReset.visibility = if (resetVisible) View.VISIBLE else View.GONE
             }
             buttonPlus.setOnClickListener {

@@ -19,7 +19,7 @@ class ResetConfirmationDialog : DialogFragment() {
     private val viewModel: MainViewModel by activityViewModels()
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
-        var view = LayoutInflater.from(requireContext()).inflate(R.layout.counter_reset_checkbox, null)
+        var view = layoutInflater.inflate(R.layout.counter_reset_checkbox, null)
         val checkBoxTarget = view.findViewById<CheckBox>(R.id.checkBoxTarget)
         val checkBoxSteps = view.findViewById<CheckBox>(R.id.checkBoxSteps)
         if (viewModel.setTarget != Int.MAX_VALUE) {

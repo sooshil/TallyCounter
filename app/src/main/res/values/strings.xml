@@ -25,4 +25,6 @@
     <string name="steps_cannot_be_greater">Steps can not be greater than current target</string>
     <string name="steps_entry_dialog_message">Enter the number by which the tally count should increase or decrease when + or - button clicked</string>
     <string name="unable_to_set_target">We are unable to set target to %1$d. The target can only be set between %2$d and %3$d</string>
+    <string name="plus">plus</string>
+    <string name="minus">minus</string>
 </resources>
