@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\drawable-night_ic_minus.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\drawable-night\\ic_minus.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\drawable_circle4digit.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\drawable\\circle4digit.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\drawable_circle.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\drawable\\circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\layout-land_fragment_main.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\layout-land\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\layout_fragment_main.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\drawable-night_ic_plus.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\drawable-night\\ic_plus.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\font_roboto_slab.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\font\\roboto_slab.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\drawable_circle3digit.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\drawable\\circle3digit.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\drawable_ic_minus.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\drawable\\ic_minus.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.sukajee.tallycounter.app-merged_res-47:/layout_fragment_main.xml.flat",
+        "source": "com.sukajee.tallycounter.app-main-49:/layout/fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\drawable_button_outline.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\drawable\\button_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\drawable_background.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\drawable\\background.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\drawable-night_background.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\drawable-night\\background.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\drawable_circle6digit.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\drawable\\circle6digit.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-pngs-43:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\layout_entry_dialog_view.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\layout\\entry_dialog_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\drawable-night_button_outline.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\drawable-night\\button_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\drawable_circle5digit.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\drawable\\circle5digit.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\font_dosis_medium.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\font\\dosis_medium.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\drawable_ic_plus.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\drawable\\ic_plus.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-merged_res-47:\\layout_counter_reset_checkbox.xml.flat",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\layout\\counter_reset_checkbox.xml"
+    }
+]

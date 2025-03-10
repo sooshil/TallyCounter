@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.sukajee.tallycounter.app-mergeReleaseResources-46:/layout/counter_reset_checkbox.xml",
+        "source": "com.sukajee.tallycounter.app-main-48:/layout/counter_reset_checkbox.xml"
+    },
+    {
+        "merged": "com.sukajee.tallycounter.app-mergeReleaseResources-46:/layout/entry_dialog_view.xml",
+        "source": "com.sukajee.tallycounter.app-main-48:/layout/entry_dialog_view.xml"
+    },
+    {
+        "merged": "com.sukajee.tallycounter.app-mergeReleaseResources-46:/layout/activity_main.xml",
+        "source": "com.sukajee.tallycounter.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.sukajee.tallycounter.app-mergeReleaseResources-46:/layout/fragment_main.xml",
+        "source": "com.sukajee.tallycounter.app-main-48:/layout/fragment_main.xml"
+    }
+]

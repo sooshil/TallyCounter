@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.sukajee.tallycounter.NavGraphDirections","com.sukajee.tallycounter.ui.MainFragmentDirections","com.sukajee.tallycounter.ui.ResetConfirmationDialogDirections","com.sukajee.tallycounter.ui.TargetEntryDialogDirections","com.sukajee.tallycounter.ui.StepsEntryDialogDirections"]}]

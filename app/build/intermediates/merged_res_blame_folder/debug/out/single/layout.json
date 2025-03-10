@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-mergeDebugResources-46:\\layout\\counter_reset_checkbox.xml",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\layout\\counter_reset_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-mergeDebugResources-46:\\layout\\entry_dialog_view.xml",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\layout\\entry_dialog_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-mergeDebugResources-46:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-mergeDebugResources-46:\\layout\\fragment_main.xml",
+        "source": "C:\\Users\\SukajeeTech\\.gradle\\daemon\\8.0\\com.sukajee.tallycounter.app-main-49:\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "com.sukajee.tallycounter.app-mergeDebugResources-46:/layout/fragment_main.xml",
+        "source": "com.sukajee.tallycounter.app-main-49:/layout/fragment_main.xml"
+    }
+]
