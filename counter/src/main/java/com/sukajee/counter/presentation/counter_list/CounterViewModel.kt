@@ -97,6 +97,18 @@ class CounterViewModel(
                     )
                 }
             }
+
+            CounterListUiEvents.OnMenuClicked -> {}
+            is CounterListUiEvents.OnNameChanged -> {
+                viewModelScope.launch {
+                    repository.upsertCounter(
+                        counter = event.counter.copy(name = event.name)
+                    )
+                }
+            }
+            is CounterListUiEvents.OnFullScreenClicked -> {
+
+            }
         }
     }
 }
