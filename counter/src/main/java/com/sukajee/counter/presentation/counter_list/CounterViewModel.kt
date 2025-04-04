@@ -106,9 +106,7 @@ class CounterViewModel(
                     )
                 }
             }
-            is CounterListUiEvents.OnFullScreenClicked -> {
-
-            }
+            CounterListUiEvents.OnBackPressed -> {}
         }
     }
 }

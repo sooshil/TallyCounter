@@ -2,12 +2,12 @@
 
 package com.sukajee.counter.presentation.counter_list
 
-import androidx.compose.foundation.BorderStroke
+import android.widget.Space
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -49,6 +49,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -69,13 +70,19 @@ import com.sukajee.counter.domain.Counter
 @Composable
 fun CountersListRoot(
     viewModel: CounterViewModel,
+    onCounterClicked: (counterId: Int) -> Unit,
     modifier: Modifier = Modifier
 ) {
     val state = viewModel.uiState.collectAsStateWithLifecycle()
 
     CountersListScreen(
         state = state.value,
-        onEvent = viewModel::onEvent,
+        onEvent = { event ->
+            if (event is CounterListUiEvents.OnCounterClicked) {
+                onCounterClicked(event.counterId)
+            }
+            viewModel.onEvent(event)
+        },
         modifier = modifier
     )
 }
@@ -157,9 +164,9 @@ fun CountersListScreen(
                     .fillMaxSize()
                     .padding(horizontal = 12.dp),
                 state = lazyListState,
-                verticalArrangement = Arrangement.spacedBy(12.dp),
+                contentPadding = PaddingValues(vertical = 16.dp),
+                verticalArrangement = Arrangement.spacedBy(16.dp)
             ) {
-                item { Spacer(modifier = Modifier.height(0.dp)) }
                 items(
                     items = state.counters,
                     key = { counter -> counter.id }
@@ -180,7 +187,6 @@ fun CountersListScreen(
                         }
                     )
                 }
-                item { Spacer(modifier = Modifier.height(0.dp)) }
             }
         }
     }
@@ -235,40 +241,28 @@ fun CounterItem(
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis,
                         modifier = Modifier
-                            .padding(16.dp)
+                            .padding(12.dp)
                             .clickable {
                                 onStartEditing()
                             }
                             .weight(1f),
                         style = MaterialTheme.typography.bodyLarge
                     )
-                    Box(
-                        modifier = Modifier
-                            .size(36.dp)
-                            .clip(CircleShape)
-                            .background(MaterialTheme.colorScheme.onSurface.copy(alpha = 0.1f))
-                    ) {
-                        IconButton(
-                            modifier = Modifier,
-                            onClick = {
-                                onEvent(
-                                    CounterListUiEvents.OnFullScreenClicked(
-                                        counterId = counter.id
-                                    )
+                    CardButton(
+                        modifier = modifier
+                            .size(24.dp),
+                        onClick = {
+                            onEvent(
+                                CounterListUiEvents.OnCounterClicked(
+                                    counterId = counter.id
                                 )
-                            }
-                        ) {
-                            Icon(
-                                modifier = Modifier
-                                    .fillMaxSize()
-                                    .padding(4.dp),
-                                imageVector = Icons.Default.Fullscreen,
-                                contentDescription = "Open in full screen"
                             )
-                        }
-                    }
+                        },
+                        icon = Icons.Default.Fullscreen,
+                        contentDescription = "Open this counter in full screen",
+                    )
                 }
-
+                Spacer(Modifier.height(13.dp))
             } else {
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
@@ -333,7 +327,7 @@ fun CounterItem(
             Row(
                 modifier = modifier
                     .fillMaxWidth()
-                    .padding(16.dp),
+                    .padding(12.dp),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
@@ -386,31 +380,22 @@ private fun CardButton(
             containerColor = MaterialTheme.colorScheme.surfaceVariant,
             contentColor = MaterialTheme.colorScheme.onSurfaceVariant
         ),
-        elevation = CardDefaults.elevatedCardElevation(
-            defaultElevation = 8.dp
-        ),
         modifier = modifier
-            .size(70.dp),
-        border = BorderStroke(
-            width = 0.1.dp,
-            color = MaterialTheme.colorScheme.background
-        )
+            .shadow(
+                elevation = 10.dp,
+                shape = CircleShape
+            )
+            .size(70.dp)
+            .clickable { onClick() }
     ) {
-        Box {
-            IconButton(
-                modifier = Modifier.fillMaxSize(),
-                onClick = onClick
-            ) {
-                Icon(
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .padding(8.dp),
-                    imageVector = icon,
-                    contentDescription = contentDescription,
-                    tint = MaterialTheme.colorScheme.onSurfaceVariant
-                )
-            }
-        }
+        Icon(
+            modifier = Modifier
+                .fillMaxSize()
+                .clip(CircleShape),
+            imageVector = icon,
+            contentDescription = contentDescription,
+            tint = MaterialTheme.colorScheme.onSurfaceVariant
+        )
     }
 }
 

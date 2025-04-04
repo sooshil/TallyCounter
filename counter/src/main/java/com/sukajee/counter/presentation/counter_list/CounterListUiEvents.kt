@@ -2,9 +2,12 @@ package com.sukajee.counter.presentation.counter_list
 
 import com.sukajee.counter.domain.Counter
 
+typealias CounterId = Int
+
+
 sealed class CounterListUiEvents {
     data object OnAddCounterClicked : CounterListUiEvents()
-    data class OnCounterClicked(val counter: Counter) : CounterListUiEvents()
+    data class OnCounterClicked(val counterId: CounterId) : CounterListUiEvents()
     data class OnDeleteCounterClicked(val counter: Counter) : CounterListUiEvents()
     data class OnPinCounterClicked(val counter: Counter) : CounterListUiEvents()
     data class OnPlusClicked(val counter: Counter) : CounterListUiEvents()
@@ -13,5 +16,5 @@ sealed class CounterListUiEvents {
     data class OnTargetSet(val target: Int, val counter: Counter) : CounterListUiEvents()
     data object OnMenuClicked : CounterListUiEvents()
     data class OnNameChanged(val counter: Counter, val name: String) : CounterListUiEvents()
-    data class OnFullScreenClicked(val counterId: Int) : CounterListUiEvents()
+    data object OnBackPressed : CounterListUiEvents()
 }
