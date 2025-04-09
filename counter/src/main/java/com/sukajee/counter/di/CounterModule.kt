@@ -6,6 +6,7 @@ import com.sukajee.counter.data.database.CounterDatabase
 import com.sukajee.counter.domain.CounterRepository
 import com.sukajee.counter.data.repository.CounterRepositoryImpl
 import com.sukajee.counter.presentation.counter_list.CounterViewModel
+import com.sukajee.counter.presentation.counter_details.CounterDetailsViewModel
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.module.dsl.viewModelOf
 import org.koin.dsl.module
@@ -29,4 +30,5 @@ val counterModule = module {
     }
 
     viewModelOf(::CounterViewModel)
+    viewModelOf(::CounterDetailsViewModel)
 }

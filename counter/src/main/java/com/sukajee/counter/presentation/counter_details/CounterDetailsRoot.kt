@@ -14,16 +14,28 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarColors
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.sukajee.counter.presentation.counter_list.CounterListUiEvents
 
 @ExperimentalMaterial3Api
 @Composable
 fun CounterDetailsRoot(
     onBackClicked: (CounterListUiEvents) -> Unit,
+    counterId: Int?,
+    viewModel: CounterDetailsViewModel
 ) {
+    counterId?.let {
+        LaunchedEffect(counterId) {
+            viewModel.getCounter(it)
+        }
+    }
+    val state by viewModel.uiState.collectAsStateWithLifecycle()
     CounterDetails(
+        state = state,
         onEvent = {
             if (it is CounterListUiEvents.OnBackPressed) {
                 onBackClicked(it)
@@ -35,13 +47,14 @@ fun CounterDetailsRoot(
 @ExperimentalMaterial3Api
 @Composable
 fun CounterDetails(
-    onEvent: (CounterListUiEvents) -> Unit
+    onEvent: (CounterListUiEvents) -> Unit,
+    state: CounterDetailsUiState
 ) {
     Scaffold(
         topBar = {
             TopAppBar(
                 title = {
-                    Text(text = "Counters")
+                    Text(text = state.counterName)
                 },
                 colors = TopAppBarColors(
                     containerColor = MaterialTheme.colorScheme.primaryContainer,
@@ -71,7 +84,7 @@ fun CounterDetails(
                 .padding(paddingValues),
             contentAlignment = Alignment.Center
         ) {
-            Text(text = "Counter Details")
+            Text(text = state.currentCount.toString())
         }
     }
 }
